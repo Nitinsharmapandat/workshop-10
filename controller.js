@@ -14,6 +14,7 @@ const createToken = (result) => {
   return jwt.sign({ result }, ACCESS_JWT_ACTIVATE, { expiresIn: '1h' });
 }
 
+
 class userController {
 
   createUser = (req, res) => {
