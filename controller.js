@@ -15,7 +15,7 @@ const createToken = (result) => {
 }
 
 
-class userController {
+class userController {   
 
   createUser = (req, res) => {
     
